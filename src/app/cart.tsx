@@ -22,7 +22,7 @@ export default function Cart() {
             {
                 text: "Remover",
                 onPress: () => cartStore.remove(product.id),
-            }
+            },
         ])
     }
 
